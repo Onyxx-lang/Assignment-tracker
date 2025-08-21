@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>📚Group 13's Assignment Reminder App</h1>
+
+        <div class="input-section">
+            <input type="text" id="assignment" placeholder="Enter assignment name" />
+            <input type="datetime-local" id="dueDate" />
+            <button id="addBtn">Add</button>
+        </div>
+
+        <div class="notify-tip" id="notifyTip" hidden>
+            Notifications are off. <button id="enableNotifyBtn" class="link-btn">Enable</button>
+        </div>
+
+        <ul id="assignmentList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

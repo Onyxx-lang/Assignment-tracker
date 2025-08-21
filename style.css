@@ -1,0 +1,113 @@
+/* General page styling */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+/* App container */
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Input section */
+.input-section {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.input-section input,
+.input-section button {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-family: "Times New Roman", Times, serif;
+    /* For assignment name & due date */
+}
+
+.input-section button {
+    background: #007bff;
+    color: white;
+    border: none;
+    transition: background 0.2s;
+}
+
+.input-section button:hover {
+    background: #0056b3;
+    cursor: pointer;
+}
+
+/* Assignment list */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f1f1f1;
+    margin-bottom: 10px;
+    padding: 12px;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+li:hover {
+    transform: scale(1.02);
+}
+
+li span {
+    flex: 1;
+}
+
+li button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 8px;
+    transition: transform 0.2s;
+}
+
+li button:hover {
+    transform: scale(1.2);
+}
+
+.done {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.notify-tip {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+.link-btn {
+    background: none;
+    border: none;
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+}
